@@ -71,7 +71,7 @@ body {
     border-radius: 0 0 40px 40px;
 }
 
-.aba-conteudo-ativo {
+.aba-conteudo.ativo {
     display: block;
 }
 .aba-conteudo {
@@ -87,9 +87,14 @@ body {
     text-transform: uppercase;
 }
 
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .botoes{
-    display: flex;
+    display:flex;
     }
     .botao:first-child {
     border-radius: 40px 0 0 0;
@@ -97,9 +102,4 @@ body {
     .botao:last-child{
     border-radius: 0 40px 0 0;
     }
-}
-
-.contador{
-    font-size: 20px;
-    text-align: center;
 }
